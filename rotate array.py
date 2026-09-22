@@ -4,3 +4,4 @@ class Solution:
         k = k % n
 
         nums[:] = nums[-k:] + nums[:-k]
+# [-K:] -> print last k numbers , [:-k] -> except last k
